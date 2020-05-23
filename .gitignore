@@ -1,0 +1,10 @@
+﻿################################################################################
+# この .gitignore ファイルは Microsoft(R) Visual Studio によって自動的に作成されました。
+################################################################################
+
+/PythonPractice/PythonPractice.sln
+/.vs/Practice/v16/.suo
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/PythonPractice/.vs/PythonPractice/v16/.suo
+/PythonPractice/PythonPractice.pyproj
