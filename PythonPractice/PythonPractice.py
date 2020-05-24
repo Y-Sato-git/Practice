@@ -12,9 +12,16 @@ print()
 
 #2020/05/24
 #timeモジュール
+#breakとcontinue
 
 import time
-intTime = int(input("カウントダウンします。秒数を指定してください　：　"))
+while True:
+    intTime = int(input("カウントダウンします。秒数を指定してください　：　"))
+    if intTime <= 0:
+        print("自然数を入力してください")
+        continue
+    else:
+        break
 
 while intTime >= 1:
     print(intTime,end=",")
