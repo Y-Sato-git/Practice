@@ -38,6 +38,7 @@ elif flg == "20200525":
 
 #2020/05/25
 #Happy Birthday
+#math
     strName = input("Name : ")
     intAge = int(input("Age  : "))
 
@@ -50,3 +51,21 @@ elif flg == "20200525":
 
     import math
     print(str(intAge) + "の平方根は" + str(math.sqrt(intAge)) + "です。")
+
+elif flg == "20200526":
+#2020/05/26
+#スライス
+
+    strA = "ABCDEFGHIJ"
+    #すべて
+    print(strA[:])
+    #先頭から5文字
+    print(strA[0:5])
+    #２文字おき
+    print(strA[::3])
+    #逆向き
+    print(strA[::-1])
+    #５文字目から最後まで
+    print(strA[4:])
+    #最後の５文字
+    print(strA[-5:])
