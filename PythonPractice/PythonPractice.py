@@ -69,3 +69,19 @@ elif flg == "20200526":
     print(strA[4:])
     #最後の５文字
     print(strA[-5:])
+
+elif flg == "20200527":
+#2020/05/27
+#.joinなど
+    strB = input("文字列(strB) を入力してください：")
+    print()
+    print("''.join(strB)    : ",''.join(strB))
+    print("' '.join(strB)   : ",' '.join(strB))
+    print("','.join(strB)   : ",','.join(strB))
+    print("' * '.join(strB) : ",' * '.join(strB))
+    print("strB.capitalize():",strB.capitalize()) #最初の文字を大文字にする
+    print("strB.upper()     :",strB.upper())      #すべての文字を大文字にする
+    print("strB.center(20)  :",strB.center(20))   #中央ぞろえ
+    print("strB.ljust(20)   :",strB.ljust(20))    #左ぞろえ
+    print("strB.rjust(20)   :",strB.rjust(20))    #右ぞろえ
+
