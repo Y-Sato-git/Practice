@@ -81,7 +81,9 @@ elif flg == "20200527":
     print("' * '.join(strB) : ",' * '.join(strB))
     print("strB.capitalize():",strB.capitalize()) #最初の文字を大文字にする
     print("strB.upper()     :",strB.upper())      #すべての文字を大文字にする
-    print("strB.center(20)  :",strB.center(20))   #中央ぞろえ
-    print("strB.ljust(20)   :",strB.ljust(20))    #左ぞろえ
-    print("strB.rjust(20)   :",strB.rjust(20))    #右ぞろえ
+    print()
+    print("strB.center(20)      :",strB.center(20))       #中央ぞろえ
+    print("strB.center(20,'*')  :",strB.center(20,'*'))   #中央ぞろえ(*で埋める。"*"にしたらエラーした。）
+    print("strB.ljust(20)       :",strB.ljust(20))        #左ぞろえ
+    print("strB.rjust(20)       :",strB.rjust(20))        #右ぞろえ
 
