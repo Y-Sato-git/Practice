@@ -1,6 +1,7 @@
 flg = input("YYYYMMDDの日付 または ALL ⇒ ")
+print(flg)
 
-if flg == "20200523" or "ALL":
+if flg == ("20200523" or "ALL"):
 
 #2020/05/23
 #リモートリポジトリ再作成
@@ -15,7 +16,7 @@ if flg == "20200523" or "ALL":
 	    print(a,end="")
     print()
 
-if flg == "20200524" or "ALL":
+if flg == ("20200524" or "ALL"):
 
 #2020/05/24
 #timeモジュール
@@ -38,7 +39,7 @@ if flg == "20200524" or "ALL":
         if intTime == 0:
             print("タイムアップ！")
 
-if flg == "20200525" or "ALL":
+if flg == ("20200525" or "ALL"):
 
 #2020/05/25
 #Happy Birthday
@@ -58,7 +59,7 @@ if flg == "20200525" or "ALL":
     import math
     print(str(intAge) + "の平方根は" + str(math.sqrt(intAge)) + "です。")
 
-if flg == "20200526" or "ALL":
+if flg == ("20200526" or "ALL"):
 #2020/05/26
 #スライス
     print("\n20200526")
@@ -77,7 +78,7 @@ if flg == "20200526" or "ALL":
     #最後の５文字
     print(strA[-5:])
 
-if flg == "20200527" or "ALL":
+if flg == ("20200527" or "ALL"):
 #2020/05/27
 #.joinなど
     print("\n20200527")
@@ -96,9 +97,18 @@ if flg == "20200527" or "ALL":
     print("strB.ljust(20)       :",strB.ljust(20))        #左ぞろえ
     print("strB.rjust(20)       :",strB.rjust(20))        #右ぞろえ
 
-if flg == "20200528" or "ALL":
+if flg == ("20200528" or "ALL"):
 #2020/05/28
 #flgにALL追加
+#余白
     print("\n20200528")
     print()
-
+    intNum = int(input("数値を入力してください。　：　"))
+    print("'{:<10}'.format(intNum)  ⇒ " , '{:<10}'.format(intNum))
+    print("'{:>10}'.format(intNum)  ⇒ " , '{:>10}'.format(intNum))
+    print("'{:^10}'.format(intNum)  ⇒ " , '{:^10}'.format(intNum))
+    print("'{:=10}'.format(intNum)  ⇒ " , '{:=10}'.format(intNum))
+    print("'{:*<10}'.format(intNum) ⇒ " , '{:*<10}'.format(intNum))
+    print("'{:*>10}'.format(intNum) ⇒ " , '{:*>10}'.format(intNum))
+    print("'{:*^10}'.format(intNum) ⇒ " , '{:*^10}'.format(intNum))
+    print("'{:*=10}'.format(intNum) ⇒ " , '{:*=10}'.format(intNum))
