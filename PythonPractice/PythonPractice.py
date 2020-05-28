@@ -1,10 +1,12 @@
-flg = input("YYYYMMDDの日付 : ")
+flg = input("YYYYMMDDの日付 または ALL ⇒ ")
 
-if flg == "20200523":
+if flg == "20200523" or "ALL":
 
 #2020/05/23
 #リモートリポジトリ再作成
 #標準入力
+    print("\n20200523")
+    print()
     a = input("文字を入力してください : ")
     b = int(input("数字を入力してください :"))
 
@@ -13,11 +15,13 @@ if flg == "20200523":
 	    print(a,end="")
     print()
 
-elif flg == "20200524":
+if flg == "20200524" or "ALL":
 
 #2020/05/24
 #timeモジュール
 #breakとcontinue
+    print("\n20200524")
+    print()
     import time
     while True:
         intTime = int(input("カウントダウンします。秒数を指定してください　：　"))
@@ -34,11 +38,13 @@ elif flg == "20200524":
         if intTime == 0:
             print("タイムアップ！")
 
-elif flg == "20200525":
+if flg == "20200525" or "ALL":
 
 #2020/05/25
 #Happy Birthday
 #math
+    print("\n20200525")
+    print()
     strName = input("Name : ")
     intAge = int(input("Age  : "))
 
@@ -52,10 +58,11 @@ elif flg == "20200525":
     import math
     print(str(intAge) + "の平方根は" + str(math.sqrt(intAge)) + "です。")
 
-elif flg == "20200526":
+if flg == "20200526" or "ALL":
 #2020/05/26
 #スライス
-
+    print("\n20200526")
+    print()
     strA = "ABCDEFGHIJ"
     #すべて
     print(strA[:])
@@ -70,9 +77,11 @@ elif flg == "20200526":
     #最後の５文字
     print(strA[-5:])
 
-elif flg == "20200527":
+if flg == "20200527" or "ALL":
 #2020/05/27
 #.joinなど
+    print("\n20200527")
+    print()
     strB = input("文字列(strB) を入力してください：")
     print()
     print("''.join(strB)    : ",''.join(strB))
@@ -86,4 +95,10 @@ elif flg == "20200527":
     print("strB.center(20,'*')  :",strB.center(20,'*'))   #中央ぞろえ(*で埋める。"*"にしたらエラーした。）
     print("strB.ljust(20)       :",strB.ljust(20))        #左ぞろえ
     print("strB.rjust(20)       :",strB.rjust(20))        #右ぞろえ
+
+if flg == "20200528" or "ALL":
+#2020/05/28
+#flgにALL追加
+    print("\n20200528")
+    print()
 
