@@ -112,3 +112,15 @@ if flg == ("20200528" or "ALL"):
     print("'{:*>10}'.format(intNum) ⇒ " , '{:*>10}'.format(intNum))
     print("'{:*^10}'.format(intNum) ⇒ " , '{:*^10}'.format(intNum))
     print("'{:*=10}'.format(intNum) ⇒ " , '{:*=10}'.format(intNum))
+
+if flg == ("20200529" or "ALL"):
+#2020/05/29
+#sort(失敗。原因不明。)
+    intNum2 = input("数字をカンマ区切りで入力してください。　：　").split(',')
+
+    sortA = sorted(intNum2)
+    sortB = sorted(intNum2, reverse=True)
+
+    print("入力　　　　　　　：　" , str(intNum2))
+    print("並び替え（昇順）　：　" , str(sortA))
+    print("並び替え（降順）　：　" , str(sortB))
