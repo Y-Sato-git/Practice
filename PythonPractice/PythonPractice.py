@@ -6,7 +6,6 @@ if flg == ("20200523" or "ALL"):
 #2020/05/23
 #リモートリポジトリ再作成
 #標準入力
-    print("\n20200523")
     print()
     a = input("文字を入力してください : ")
     b = int(input("数字を入力してください :"))
@@ -21,7 +20,6 @@ if flg == ("20200524" or "ALL"):
 #2020/05/24
 #timeモジュール
 #breakとcontinue
-    print("\n20200524")
     print()
     import time
     while True:
@@ -44,7 +42,6 @@ if flg == ("20200525" or "ALL"):
 #2020/05/25
 #Happy Birthday
 #math
-    print("\n20200525")
     print()
     strName = input("Name : ")
     intAge = int(input("Age  : "))
@@ -62,7 +59,6 @@ if flg == ("20200525" or "ALL"):
 if flg == ("20200526" or "ALL"):
 #2020/05/26
 #スライス
-    print("\n20200526")
     print()
     strA = "ABCDEFGHIJ"
     #すべて
@@ -81,7 +77,6 @@ if flg == ("20200526" or "ALL"):
 if flg == ("20200527" or "ALL"):
 #2020/05/27
 #.joinなど
-    print("\n20200527")
     print()
     strB = input("文字列(strB) を入力してください：")
     print()
@@ -101,7 +96,6 @@ if flg == ("20200528" or "ALL"):
 #2020/05/28
 #flgにALL追加
 #余白
-    print("\n20200528")
     print()
     intNum = int(input("数値を入力してください。　：　"))
     print("'{:<10}'.format(intNum)  ⇒ " , '{:<10}'.format(intNum))
