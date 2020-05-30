@@ -124,3 +124,18 @@ if flg == ("20200529" or "ALL"):
     print("入力　　　　　　　：　" , str(intNum2))
     print("並び替え（昇順）　：　" , str(sortA))
     print("並び替え（降順）　：　" , str(sortB))
+
+if flg == ("20200530" or "ALL"):
+#2020/05/30
+#def(関数の作り方)
+    print("関数の作り方 : def + 関数名(仮引数)")
+
+    #関数部分
+    def ast(n):
+        for _ in range(n):
+            print("*",end = '')
+
+    #関数呼び出し
+    i = int(input("自然数を入力してください　：　"))
+    ast(i)
+    print()
