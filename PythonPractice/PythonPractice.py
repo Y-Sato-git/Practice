@@ -133,3 +133,12 @@ if flg == ("20200530" or "ALL"):
     i = int(input("自然数を入力してください　：　"))
     ast(i)
     print()
+
+if flg == ("20200531" or "ALL"):
+#2020/05/31
+#リストの出力
+    i = 0
+    listNum = [1,2,3,4,5]
+    print(listNum)
+    for i in enumerate(listNum):
+        print(i)
