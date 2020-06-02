@@ -15,3 +15,18 @@ if flg == ("20200601" or "ALL"):
         print("リストにありません。エラー内容⇒{}".format(ex))
     except Exception as ex:
         print("エラー内容⇒{}".format(ex))
+
+if flg == ("20200602" or "ALL"):
+
+#2020/06/02
+#defaultdict
+    from collections import defaultdict
+
+    strLine = input("文字列を入力してください　：　")
+
+    #0で初期化
+    d = defaultdict(int)
+
+    for c in strLine:
+        d[c] += 1
+    print(d)
