@@ -30,3 +30,20 @@ if flg == ("20200602" or "ALL"):
     for c in strLine:
         d[c] += 1
     print(d)
+
+if flg == ("20200603" or "ALL"):
+
+#2020/06/03
+#Class
+    inName = input("Name : ")
+    inAge = int(input("Age  : "))
+
+    class Person(object):
+        def name(self,strName):
+            print(strName,"さん")
+        def age(self,intAge):
+            print(str(intAge),"歳")
+
+    person = Person()
+    person.name(inName)
+    person.age(inAge)
