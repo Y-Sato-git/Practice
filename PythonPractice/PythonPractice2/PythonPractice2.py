@@ -47,3 +47,24 @@ if flg == ("20200603" or "ALL"):
     person = Person()
     person.name(inName)
     person.age(inAge)
+
+if flg == ("20200604" or "ALL"):
+
+#2020/06/04
+#ファイル(プロジェクトと同じフォルダに格納される)
+
+    #書き込み
+    f = open('test.txt','w')
+    f.write('test')
+    f.close()
+
+    #読み込み
+    f = open('test.txt','r')
+    #3文字目(0から始まるので）
+    f.seek(2)
+    print(f.read(1))
+    '''
+    以下のようにwithステートメントを使うと、自動でcloseしてくれる。
+    with open('test.txt','w') as f:
+        f.write('test')
+    '''
