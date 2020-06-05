@@ -63,8 +63,45 @@ if flg == ("20200604" or "ALL"):
     #3文字目(0から始まるので）
     f.seek(2)
     print(f.read(1))
-    '''
+
+'''
     以下のようにwithステートメントを使うと、自動でcloseしてくれる。
     with open('test.txt','w') as f:
         f.write('test')
-    '''
+'''
+
+if flg == ("20200605" or "ALL"):
+
+#2020/06/05
+#Excel自動化
+
+    import openpyxl
+    import docx
+
+    strFileName = input("ファイル名：　")
+
+    #workbookを開く
+    wb = openpyxl.Workbook()
+
+    #sheetを追加
+    wb.create_sheet()
+
+    #sheetの名前（一覧）
+    print(wb.get_sheet_names())
+
+    #sheet指定
+    sheet = wb['Sheet']
+
+    #cell指定
+    c = sheet['A1']
+
+    #cellの値変更
+    c.value = "aaa"
+
+    #2枚目
+    sheet = wb['Sheet1']
+    c = sheet['A1']
+    c.value = "bbb"
+
+    #保存
+    wb.save(strFileName + ".xlsx")
