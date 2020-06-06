@@ -106,3 +106,31 @@ if flg == ("20200605" or "ALL"):
     #保存
     wb.save(strFileName + ".xlsx")
 
+if flg == ("20200606" or "ALL"):
+
+#2020/06/06
+#Excel自動化続き,Word自動化
+
+    import openpyxl
+    from openpyxl.styles import Font
+
+    wb = openpyxl.Workbook()
+    sheet = wb.active
+    _font = Font(name="明朝",sz=15,b=True)
+
+    for i in range(1,100):
+        cell = sheet.cell(row=i,column=1,value=i)
+        cell.font = _font
+
+    wb.save("20200606.xlsx")
+
+    import docx
+    from docx import Document
+
+    document = Document()
+    document.add_paragraph("AAAAAAAAAA")
+
+    document.save("20200606.docx")
+
+    import os
+    print(os.listdir('.'))
