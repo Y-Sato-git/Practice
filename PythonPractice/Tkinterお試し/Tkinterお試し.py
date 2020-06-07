@@ -1,3 +1,4 @@
+#うまく動いてない
 import tkinter as tk
 from tkinter import filedialog
 import openpyxl
