@@ -134,3 +134,9 @@ if flg == ("20200606" or "ALL"):
 
     import os
     print(os.listdir('.'))
+
+if flg == ("20200607" or "20200608" or "ALL"):
+
+#2020/06/07,08
+#Tkinterお試し作成（別プロジェクト・消滅してた）
+    print("今日は別プロジェクト")
