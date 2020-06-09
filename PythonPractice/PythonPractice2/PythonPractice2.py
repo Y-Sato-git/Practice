@@ -140,3 +140,12 @@ if flg == ("20200607" or "20200608" or "ALL"):
 #2020/06/07,08
 #Tkinterお試し作成（別プロジェクト・消滅してた）
     print("今日は別プロジェクト")
+
+if flg == ("20200609" or "ALL"):
+
+#2020/06/09
+#logging
+    import logging
+
+    logging.basicConfig(level=logging.DEBUG)
+    logging.debug('DEBUG')
