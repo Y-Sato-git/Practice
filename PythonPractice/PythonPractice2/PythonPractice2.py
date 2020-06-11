@@ -149,3 +149,29 @@ if flg == ("20200609" or "ALL"):
 
     logging.basicConfig(level=logging.DEBUG)
     logging.debug('DEBUG')
+
+if flg == ("20200610" or "ALL"):
+
+#2020/06/10
+#openpyxl
+    print("今日は別プロジェクト")
+
+if flg == ("20200611" or "ALL"):
+    
+#2020/06/11
+#pandas
+    import pandas
+    import numpy
+
+    array9 = numpy.array([1,2,3,4,5,6,7,8,9])
+    dataframe9 = pandas.DataFrame({
+        '1' : array9,
+        '2' : array9 * 2,
+        '3' : array9 * 3,
+        '4' : array9 * 4,
+        '5' : array9 * 5,
+        '6' : array9 * 6,
+        '7' : array9 * 7,
+        '8' : array9 * 8,
+        '9' : array9 * 9})
+    print(dataframe9)
