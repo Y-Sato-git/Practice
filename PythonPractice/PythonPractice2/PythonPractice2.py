@@ -2,7 +2,7 @@
 flg =  input("YYYYMMDDの日付 または ALL ⇒ ")
 print(flg)
 
-if flg == ("20200601" or "ALL"):
+if flg == "20200601" or flg == "ALL":
 
 #2020/06/01
 #例外処理
@@ -16,7 +16,7 @@ if flg == ("20200601" or "ALL"):
     except Exception as ex:
         print("エラー内容⇒{}".format(ex))
 
-if flg == ("20200602" or "ALL"):
+if flg == "20200602" or flg == "ALL":
 
 #2020/06/02
 #defaultdict
@@ -31,7 +31,7 @@ if flg == ("20200602" or "ALL"):
         d[c] += 1
     print(d)
 
-if flg == ("20200603" or "ALL"):
+if flg == "20200603" or flg == "ALL":
 
 #2020/06/03
 #Class
@@ -48,7 +48,7 @@ if flg == ("20200603" or "ALL"):
     person.name(inName)
     person.age(inAge)
 
-if flg == ("20200604" or "ALL"):
+if flg == "20200604" or flg == "ALL":
 
 #2020/06/04
 #ファイル(プロジェクトと同じフォルダに格納される)
@@ -70,7 +70,7 @@ if flg == ("20200604" or "ALL"):
         f.write('test')
 '''
 
-if flg == ("20200605" or "ALL"):
+if flg == "20200605" or flg == "ALL":
 
 #2020/06/05
 #Excel自動化
@@ -106,7 +106,7 @@ if flg == ("20200605" or "ALL"):
     #保存
     wb.save(strFileName + ".xlsx")
 
-if flg == ("20200606" or "ALL"):
+if flg == "20200606" or flg == "ALL":
 
 #2020/06/06
 #Excel自動化続き,Word自動化
@@ -135,13 +135,13 @@ if flg == ("20200606" or "ALL"):
     import os
     print(os.listdir('.'))
 
-if flg == ("20200607" or "20200608" or "ALL"):
+if flg == "20200607" or flg == "20200608" or flg == "ALL":
 
 #2020/06/07,08
 #Tkinterお試し作成（別プロジェクト・消滅してた）
     print("今日は別プロジェクト")
 
-if flg == ("20200609" or "ALL"):
+if flg == "20200609" or flg == "ALL":
 
 #2020/06/09
 #logging
@@ -150,13 +150,13 @@ if flg == ("20200609" or "ALL"):
     logging.basicConfig(level=logging.DEBUG)
     logging.debug('DEBUG')
 
-if flg == ("20200610" or "ALL"):
+if flg == "20200610" or flg == "ALL":
 
 #2020/06/10
 #openpyxl
     print("今日は別プロジェクト")
 
-if flg == ("20200611" or "ALL"):
+if flg == "20200611" or flg == "ALL":
     
 #2020/06/11
 #pandas
@@ -176,7 +176,7 @@ if flg == ("20200611" or "ALL"):
         '9' : array9 * 9})
     print(dataframe9)
 
-if flg == ("20200612" or "ALL"):
+if flg == "20200612" or flg == "ALL":
     
 #2020/06/12
 #計算
