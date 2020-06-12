@@ -175,3 +175,22 @@ if flg == ("20200611" or "ALL"):
         '8' : array9 * 8,
         '9' : array9 * 9})
     print(dataframe9)
+
+if flg == ("20200612" or "ALL"):
+    
+#2020/06/12
+#計算
+
+    import scipy
+    import numpy
+
+    sample_data = numpy.array([1,2,3,4,5])
+    print("sample_data = numpy.array([1,2,3,4,5])")
+    print("sum  : " , str(scipy.sum(sample_data)))
+    print("mean : " , str(scipy.mean(sample_data)))
+    print("var(ddof=0) : " , str(scipy.var(sample_data,ddof=0)))
+    print("var(ddof=1) : " , str(scipy.var(sample_data,ddof=1)))
+    print("std(ddof=0) : " , str(scipy.std(sample_data,ddof=0)))
+    print("amax : " , str(scipy.amax(sample_data)))
+    print("amin : " , str(scipy.amin(sample_data)))
+    print("median : " , str(scipy.median(sample_data)))
