@@ -194,3 +194,12 @@ if flg == "20200612" or flg == "ALL":
     print("amax : " , str(scipy.amax(sample_data)))
     print("amin : " , str(scipy.amin(sample_data)))
     print("median : " , str(scipy.median(sample_data)))
+
+if flg == "20200613" or flg == "ALL":
+    
+#2020/06/13
+#CSV
+    import pandas
+
+    csv_file = pandas.read_csv("TESTCSV.csv")
+    print(csv_file)
