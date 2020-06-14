@@ -203,3 +203,25 @@ if flg == "20200613" or flg == "ALL":
 
     csv_file = pandas.read_csv("TESTCSV.csv")
     print(csv_file)
+
+if flg == "20200614" or flg == "ALL":
+    
+#2020/06/14
+#グラフ
+    import numpy
+    import matplotlib.pyplot as mp
+
+    x = numpy.linspace(0,10)
+    line_1 = x
+    line_2 = x * 2
+
+    mp.xlabel("x",size = 20)
+    mp.ylabel("y",size = 20)
+    mp.title("グラフ")
+    mp.grid()
+
+    mp.plot(x,line_1)
+    mp.plot(x,line_2,linestyle = "dashed")
+    mp.legend()
+
+    mp.show()
