@@ -225,3 +225,10 @@ if flg == "20200614" or flg == "ALL":
     mp.legend()
 
     mp.show()
+
+if flg == "20200615" or flg == "ALL":
+    
+#2020/06/15
+#休養日
+    print("手術日のためお休み")
+
