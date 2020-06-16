@@ -232,3 +232,17 @@ if flg == "20200615" or flg == "ALL":
 #休養日
     print("手術日のためお休み")
 
+if flg == "20200616" or flg == "ALL":
+    
+#2020/06/16
+#paizaラーニング
+    print("Classの勉強")
+
+    name = input("名前を入力　：　")
+    class Hello:
+        def print_hello(self,name):
+            print(name + "さん、こんにちは。")
+
+    hello = Hello()
+    hello.print_hello(name)
+    
