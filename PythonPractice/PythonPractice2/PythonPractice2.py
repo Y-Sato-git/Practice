@@ -246,3 +246,15 @@ if flg == "20200616" or flg == "ALL":
     hello = Hello()
     hello.print_hello(name)
     
+if flg == "20200617" or flg == "ALL":
+    
+#2020/06/17
+#paizaラーニング
+    print("2次元リストの勉強。リストの中にリストが入る。")
+
+    list1 = ["a","b","c"]
+    list2 = ["1","2","3"]
+    list3 = ["A","B","C"]
+
+    lists = [list1,list2,list3]
+    print(lists)
