@@ -258,3 +258,20 @@ if flg == "20200617" or flg == "ALL":
 
     lists = [list1,list2,list3]
     print(lists)
+
+if flg == "20200618" or flg == "ALL":
+    
+#2020/06/18
+#paizaラーニング
+    print("enumerate")
+
+    animals = ["dog","cat","rabbit"]
+
+    for (i,animal) in enumerate(animals):
+        print(str(i + 1) + "番目は" + animal + "です。")
+
+    #初期化
+    numbers = [1 for i in range(10)]
+    print()
+    print("1で初期化")
+    print(numbers)
