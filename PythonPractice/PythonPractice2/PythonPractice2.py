@@ -275,3 +275,17 @@ if flg == "20200618" or flg == "ALL":
     print()
     print("1で初期化")
     print(numbers)
+
+if flg == "20200619" or flg == "ALL":
+    
+#2020/06/19
+#paizaラーニング
+    print("global変数")
+
+    num = int(input("number : "))
+
+    def print_num():
+        global num
+        print(num * 100)
+
+    print_num()
