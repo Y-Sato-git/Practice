@@ -289,3 +289,15 @@ if flg == "20200619" or flg == "ALL":
         print(num * 100)
 
     print_num()
+    
+if flg == "20200620" or flg == "ALL":
+    
+#2020/06/20
+#paizaラーニング
+    print("sorted")
+
+    numList = [100,900,740,0,15]
+    #昇順
+    print(sorted(numList))
+    #降順
+    print(sorted(numList, reverse=True))
