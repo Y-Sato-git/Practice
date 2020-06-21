@@ -301,3 +301,14 @@ if flg == "20200620" or flg == "ALL":
     print(sorted(numList))
     #降順
     print(sorted(numList, reverse=True))
+
+if flg == "20200621" or flg == "ALL":
+    
+#2020/06/21
+#paizaラーニング
+    print("関数のデフォルト値")
+
+    def welcome(name = "noname"):
+        print("こんにちは" + name + "さん")
+
+    welcome()
