@@ -312,3 +312,25 @@ if flg == "20200621" or flg == "ALL":
         print("こんにちは" + name + "さん")
 
     welcome()
+
+if flg == "20200622" or flg == "ALL":
+    
+#2020/06/22
+#paizaラーニング
+    print("継承")
+
+    greeting = input("Greeting : ")
+    name = input("name     : ")
+
+    class A:
+        def __init__(self,greeting):
+            self.greeting = greeting
+            #print(greeting)
+
+    class B(A):
+        def say_hello(self,name):
+            self.name = name
+            print(self.greeting + " " + name)
+
+    b = B(greeting)
+    b.say_hello(name)
