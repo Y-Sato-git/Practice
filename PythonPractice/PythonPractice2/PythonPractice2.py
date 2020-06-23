@@ -334,3 +334,17 @@ if flg == "20200622" or flg == "ALL":
 
     b = B(greeting)
     b.say_hello(name)
+
+if flg == "20200623" or flg == "ALL":
+    
+#2020/06/23
+#コンストラクタでカウントアップ
+    class A:
+        count = 0
+        def __init__(self,greeting):
+            self.greeting = greeting
+            A.count += 1
+            print(A.count)
+
+    a = A("おはよう")
+    b = A("こんばんは")
