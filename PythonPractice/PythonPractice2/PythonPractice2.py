@@ -353,3 +353,14 @@ if flg == "20200624" or flg == "ALL":
     
 #2020/06/24
     print("今日はお休み")
+
+if flg == "20200625" or flg == "ALL":
+    
+#2020/06/25
+#datetime
+    from datetime import datetime, timedelta, timezone
+    
+    #標準時刻に9時間足して日本時間にする
+    japan = timezone(timedelta(hours=9))
+    print(datetime.now(japan))
+    print(datetime.now(japan).year)
