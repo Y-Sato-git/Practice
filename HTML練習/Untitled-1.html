@@ -8,5 +8,52 @@
         <h1>1ページ目</h1>
         <p>パラグラフ</p>
         <a href="Untitled-2.html">次ページへ</a>
+
+        <table border="2">
+            <tr>
+                <td>テーブル作成1-1</td>
+                <td>テーブル作成1-2</td>
+            </tr>
+            <tr>
+                <td>テーブル作成2-1</td>
+                <td>テーブル作成2-2</td>
+            </tr>
+            <tr>
+                <td colspan="2">横につなげる</td>
+            </tr>
+        </table>
+
+        <ul>
+            <li>リスト1</li>
+            <li>リスト2</li>
+        </ul>
+
+        <form>
+            <input type="checkbox" name="pref[]" value="1">東京
+            <input type="checkbox" name="pref[]" value="2">埼玉
+            <br>
+
+            <input type="radio" name="gender" value="1">男
+            <input type="radio" name="gender" value="2">女
+            <input type="radio" name="gender" value="3">その他
+            <br>
+
+            <select name="blood">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+            </select>
+            <br>
+
+            <textarea name="comment" cols="50" rows="3"></textarea>
+            <br><br>
+
+            Eメール<br>
+            <input type="text" name="email"><br>
+            Password<br>
+            <input type="text" name="pass"><br>
+            <input type="submit" name="submit">
+        </form>
     </body>
 </html>
